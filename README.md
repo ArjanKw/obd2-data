@@ -17,7 +17,7 @@ The data is seperated by driver/car combination. Each driver has it's own folder
 ### File name
 The file name is in the following format:
 
-> `YYYY-MM-DD hh-MM-ss_[mode]-[from]-[to].csv`
+> `YYYY-MM-DD hh-MM-ss_[mode]-[from]-[to]-[description].csv`
 
 The date/time is the starting point of the recording. The part behind the time is optional. It provides the driving mode, and an identifier of the starting point and the end point.
 
@@ -26,5 +26,6 @@ The date/time is the starting point of the recording. The part behind the time i
 | **Mode** | Eco / Normal / Rush |
 | **From** | Unique identifier of the starting point of the recording |
 | **To** | Unique identifier of the end point of the recording |
+| **Description** | Description, if necessary |
 
 _From_ and _To_ can be used to group (semi) identical routes to each other, without the need to process GPS data. 
