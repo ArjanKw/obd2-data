@@ -11,6 +11,9 @@ Need OBD2 data for big data analysis? This repository shares OBD2 datasets. The 
 - Determine the roll factor of your car.
 - ...
 
+## Participate
+Everyone is welcome to add data to the set.
+
 ## About the data
 The data is seperated by driver/car combination. Each driver has it's own folder. Each folder contains a readme, containing information about the car.
 
